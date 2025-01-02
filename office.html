@@ -1,0 +1,434 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>office</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#111418] dark group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#111418] p-4">
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-xl bg-[#293038]"><p class="text-white text-sm font-medium leading-normal">Overview</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Access Control</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Video Surveillance</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Alarms</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-white text-sm font-medium leading-normal">Incidents</p></div>
+                </div>
+              </div>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1466b8] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">New</span>
+              </button>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Locations</h2>
+            <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+              <div class="text-white flex items-center justify-center rounded-lg bg-[#293038] shrink-0 size-12" data-icon="Buildings" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M240,208H224V96a16,16,0,0,0-16-16H144V32a16,16,0,0,0-24.88-13.32L39.12,72A16,16,0,0,0,32,85.34V208H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM208,96V208H144V96ZM48,85.34,128,32V208H48ZM112,112v16a8,8,0,0,1-16,0V112a8,8,0,1,1,16,0Zm-32,0v16a8,8,0,0,1-16,0V112a8,8,0,1,1,16,0Zm0,56v16a8,8,0,0,1-16,0V168a8,8,0,0,1,16,0Zm32,0v16a8,8,0,0,1-16,0V168a8,8,0,0,1,16,0Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">HQ</p>
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal line-clamp-2">San Francisco, CA</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+              <div class="text-white flex items-center justify-center rounded-lg bg-[#293038] shrink-0 size-12" data-icon="Buildings" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M240,208H224V96a16,16,0,0,0-16-16H144V32a16,16,0,0,0-24.88-13.32L39.12,72A16,16,0,0,0,32,85.34V208H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM208,96V208H144V96ZM48,85.34,128,32V208H48ZM112,112v16a8,8,0,0,1-16,0V112a8,8,0,1,1,16,0Zm-32,0v16a8,8,0,0,1-16,0V112a8,8,0,1,1,16,0Zm0,56v16a8,8,0,0,1-16,0V168a8,8,0,0,1,16,0Zm32,0v16a8,8,0,0,1-16,0V168a8,8,0,0,1,16,0Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Office</p>
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal line-clamp-2">San Francisco, CA</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+              <div class="text-white flex items-center justify-center rounded-lg bg-[#293038] shrink-0 size-12" data-icon="Buildings" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M240,208H224V96a16,16,0,0,0-16-16H144V32a16,16,0,0,0-24.88-13.32L39.12,72A16,16,0,0,0,32,85.34V208H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM208,96V208H144V96ZM48,85.34,128,32V208H48ZM112,112v16a8,8,0,0,1-16,0V112a8,8,0,1,1,16,0Zm-32,0v16a8,8,0,0,1-16,0V112a8,8,0,1,1,16,0Zm0,56v16a8,8,0,0,1-16,0V168a8,8,0,0,1,16,0Zm32,0v16a8,8,0,0,1-16,0V168a8,8,0,0,1,16,0Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Warehouse</p>
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal line-clamp-2">San Francisco, CA</p>
+              </div>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-white tracking-light text-[32px] font-bold leading-tight">Office Security Overview</p>
+                <p class="text-[#9dabb8] text-sm font-normal leading-normal">Last updated 2 hours ago</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 text-center pb-3">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5a1828c5-230c-4301-a679-dfffb577081d.png");'
+                  ></div>
+                </div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Access Controls</p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">All doors are locked</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 text-center pb-3">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/9d46ef5f-8434-4c02-bbae-9741c5af6b66.png");'
+                  ></div>
+                </div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Surveillance Cameras</p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">All cameras are operational</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 text-center pb-3">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/b0080b3f-f14c-4655-872e-77fb54fc6c75.png");'
+                  ></div>
+                </div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Alarms</p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">No alarms are active</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 text-center pb-3">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/d23ad6a5-f7d6-42dc-9bcf-925337e1d76a.png");'
+                  ></div>
+                </div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Breach Incidents</p>
+                  <p class="text-[#9dabb8] text-sm font-normal leading-normal">No incidents in the last 24 hours</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Access Control</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#3c4753] bg-[#111418]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#1c2126]">
+                      <th class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Location</th>
+                      <th class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-240 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Door</th>
+                      <th class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-360 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-480 px-4 py-3 text-left text-white w-60 text-[#9dabb8] text-sm font-medium leading-normal">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">HQ</td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Main Entrance
+                      </td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Locked</span>
+                        </button>
+                      </td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Unlock
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">Office</td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Back Door
+                      </td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Unlocked</span>
+                        </button>
+                      </td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Lock
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Warehouse
+                      </td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Loading Bay
+                      </td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Locked</span>
+                        </button>
+                      </td>
+                      <td class="table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Unlock
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-120{display: none;}}
+                @container(max-width:240px){.table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-240{display: none;}}
+                @container(max-width:360px){.table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-360{display: none;}}
+                @container(max-width:480px){.table-da6c6eb4-0d47-4837-b2b0-9f36467d7273-column-480{display: none;}}
+              </style>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Surveillance Cameras</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#3c4753] bg-[#111418]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#1c2126]">
+                      <th class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Location</th>
+                      <th class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-240 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Camera</th>
+                      <th class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-360 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-480 px-4 py-3 text-left text-white w-60 text-[#9dabb8] text-sm font-medium leading-normal">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">HQ</td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">Lobby</td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Operational</span>
+                        </button>
+                      </td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">Office</td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">Kitchen</td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Offline</span>
+                        </button>
+                      </td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Restart
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Warehouse
+                      </td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">Entrance</td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Operational</span>
+                        </button>
+                      </td>
+                      <td class="table-9b753c6d-b770-464a-b185-8ae30a350e12-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-9b753c6d-b770-464a-b185-8ae30a350e12-column-120{display: none;}}
+                @container(max-width:240px){.table-9b753c6d-b770-464a-b185-8ae30a350e12-column-240{display: none;}}
+                @container(max-width:360px){.table-9b753c6d-b770-464a-b185-8ae30a350e12-column-360{display: none;}}
+                @container(max-width:480px){.table-9b753c6d-b770-464a-b185-8ae30a350e12-column-480{display: none;}}
+              </style>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Alarms</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#3c4753] bg-[#111418]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#1c2126]">
+                      <th class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Location</th>
+                      <th class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-240 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Alarm</th>
+                      <th class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-360 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-480 px-4 py-3 text-left text-white w-60 text-[#9dabb8] text-sm font-medium leading-normal">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">HQ</td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Fire Alarm
+                      </td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Disabled</span>
+                        </button>
+                      </td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Enable
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">Office</td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Intrusion Alarm
+                      </td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Active</span>
+                        </button>
+                      </td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Disable
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Warehouse
+                      </td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Gas Leak Alarm
+                      </td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Operational</span>
+                        </button>
+                      </td>
+                      <td class="table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-120{display: none;}}
+                @container(max-width:240px){.table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-240{display: none;}}
+                @container(max-width:360px){.table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-360{display: none;}}
+                @container(max-width:480px){.table-c7bf4a8f-3687-460c-b6df-2a26f590dc37-column-480{display: none;}}
+              </style>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Incidents</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#3c4753] bg-[#111418]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#1c2126]">
+                      <th class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Location</th>
+                      <th class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-240 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Incident</th>
+                      <th class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-360 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-480 px-4 py-3 text-left text-white w-60 text-[#9dabb8] text-sm font-medium leading-normal">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">HQ</td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Fire Alarm Triggered
+                      </td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Resolved</span>
+                        </button>
+                      </td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">Office</td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Intrusion Detected
+                      </td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Active</span>
+                        </button>
+                      </td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3c4753]">
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-120 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Warehouse
+                      </td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-240 h-[72px] px-4 py-2 w-[400px] text-[#9dabb8] text-sm font-normal leading-normal">
+                        Gas Leak Reported
+                      </td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#293038] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Reviewed</span>
+                        </button>
+                      </td>
+                      <td class="table-5d092049-9fe5-447e-b02f-37b864ab0997-column-480 h-[72px] px-4 py-2 w-60 text-[#9dabb8] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Resolve
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-5d092049-9fe5-447e-b02f-37b864ab0997-column-120{display: none;}}
+                @container(max-width:240px){.table-5d092049-9fe5-447e-b02f-37b864ab0997-column-240{display: none;}}
+                @container(max-width:360px){.table-5d092049-9fe5-447e-b02f-37b864ab0997-column-360{display: none;}}
+                @container(max-width:480px){.table-5d092049-9fe5-447e-b02f-37b864ab0997-column-480{display: none;}}
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

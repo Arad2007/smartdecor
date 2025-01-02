@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | SecureView</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Manrope:wght@400;500;700;800&family=Noto+Sans:wght@400;500;700;900">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <style>
+    body {
+      background-image: url('https://source.unsplash.com/1920x1080/?technology,security,computer');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .content-container {
+      backdrop-filter: blur(10px);
+      background-color: rgba(17, 20, 24, 0.8);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-[#111418] font-manrope text-white flex items-center justify-center">
+
+  <!-- Main Content -->
+  <main class="content-container max-w-xl w-full text-center">
+    <header class="mb-6">
+      <h1 class="text-3xl font-bold">SecureView</h1>
+      <p class="text-sm text-[#9dabb8]">Protecting your digital space</p>
+    </header>
+    
+    <!-- Form -->
+    <form class="space-y-5">
+      <h2 class="text-2xl font-semibold mb-3">Log in to your account</h2>
+
+      <!-- Email -->
+      <div>
+        <label for="email" class="block text-left text-base font-medium mb-2">Email Address</label>
+        <input id="email" type="email" placeholder="you@example.com" class="w-full h-12 px-4 rounded-lg bg-[#293038] text-white placeholder-[#9dabb8]" required>
+      </div>
+
+      <!-- Password -->
+      <div>
+        <label for="password" class="block text-left text-base font-medium mb-2">Password</label>
+        <input id="password" type="password" placeholder="••••••••" class="w-full h-12 px-4 rounded-lg bg-[#293038] text-white placeholder-[#9dabb8]" required>
+      </div>
+
+      <!-- Remember Me -->
+      <div class="flex items-center justify-between">
+        <label class="flex items-center gap-2">
+          <input type="checkbox" class="h-4 w-4 rounded border-[#3c4753] focus:ring-0">
+          <span class="text-sm">Remember me</span>
+        </label>
+        <a href="#" class="text-sm text-blue-400">Forgot password?</a>
+      </div>
+
+      <!-- Login Button -->
+      <button 
+  type="button" 
+  onclick="window.location.href='index.html';" 
+  class="w-full h-12 bg-blue-500 rounded-lg text-white font-bold hover:bg-blue-600">
+  Log In
+</button>
+    </form>
+  </main>
+</body>
+</html>

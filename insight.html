@@ -1,0 +1,417 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>insights</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#111518] dark group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#111518] p-4">
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col">
+                  <h1 class="text-white text-base font-medium leading-normal">EcoGuard</h1>
+                  <p class="text-[#9cacba] text-sm font-normal leading-normal">Real-time security at the intersection of cyber and physical</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-xl bg-[#283139]">
+                    <div class="text-white" data-icon="Waves" data-size="24px" data-weight="fill">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM195.58,175.16c-.72.36-17.89,8.84-35.58,8.84-17.89,0-27.29-4.7-35.58-8.84C116.74,171.32,110.11,168,96,168c-13.84,0-28.29,7.09-28.43,7.16a8,8,0,0,1-7.15-14.32C61.14,160.48,78.31,152,96,152c17.89,0,27.29,4.7,35.58,8.84,7.68,3.84,14.31,7.16,28.42,7.16,13.84,0,28.29-7.09,28.43-7.16a8,8,0,0,1,7.15,14.32Zm0-40c-.72.36-17.89,8.84-35.58,8.84-17.89,0-27.29-4.7-35.58-8.84C116.74,131.32,110.11,128,96,128c-13.84,0-28.29,7.09-28.43,7.16a8,8,0,0,1-7.15-14.32C61.14,120.48,78.31,112,96,112c17.89,0,27.29,4.7,35.58,8.84,7.68,3.84,14.31,7.16,28.42,7.16,13.84,0,28.29-7.09,28.43-7.16a8,8,0,0,1,7.15,14.32Zm0-40c-.72.36-17.89,8.84-35.58,8.84-17.89,0-27.29-4.7-35.58-8.84C116.74,91.32,110.11,88,96,88c-13.84,0-28.29,7.09-28.43,7.16a8,8,0,0,1-7.15-14.32C61.14,80.48,78.31,72,96,72c17.89,0,27.29,4.7,35.58,8.84C139.26,84.68,145.89,88,160,88c13.84,0,28.29-7.09,28.43-7.16a8,8,0,0,1,7.15,14.32Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Network Health</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-white" data-icon="ShieldCheck" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M208,40H48A16,16,0,0,0,32,56v58.78c0,89.61,75.82,119.34,91,124.39a15.53,15.53,0,0,0,10,0c15.2-5.05,91-34.78,91-124.39V56A16,16,0,0,0,208,40Zm0,74.79c0,78.42-66.35,104.62-80,109.18-13.53-4.51-80-30.69-80-109.18V56H208ZM82.34,141.66a8,8,0,0,1,11.32-11.32L112,148.68l50.34-50.34a8,8,0,0,1,11.32,11.32l-56,56a8,8,0,0,1-11.32,0Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Physical Security Logs</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-white" data-icon="FileSearch" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-45.54-48.85a36.05,36.05,0,1,0-11.31,11.31l11.19,11.2a8,8,0,0,0,11.32-11.32ZM104,148a20,20,0,1,1,20,20A20,20,0,0,1,104,148Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Incident Reports</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-white" data-icon="Alarm" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M128,32a96,96,0,1,0,96,96A96.11,96.11,0,0,0,128,32Zm0,176a80,80,0,1,1,80-80A80.09,80.09,0,0,1,128,208ZM61.66,29.66l-32,32A8,8,0,0,1,18.34,50.34l32-32A8,8,0,1,1,61.66,29.66Zm176,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,237.66,61.66ZM184,120a8,8,0,0,1,0,16H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-white text-sm font-medium leading-normal">Preparedness Exercises</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-1">
+                <div class="flex items-center gap-3 px-3 py-2">
+                  <div class="text-white" data-icon="AppWindow" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM80,84A12,12,0,1,1,68,72,12,12,0,0,1,80,84Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,120,84Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm font-medium leading-normal">Demo mode</p>
+                </div>
+                <div class="flex items-center gap-3 px-3 py-2">
+                  <div class="text-white" data-icon="Plus" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm font-medium leading-normal">Invite team</p>
+                </div>
+                <div class="flex items-center gap-3 px-3 py-2">
+                  <div class="text-white" data-icon="Megaphone" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M240,120a48.05,48.05,0,0,0-48-48H152.2c-2.91-.17-53.62-3.74-101.91-44.24A16,16,0,0,0,24,40V200a16,16,0,0,0,26.29,12.25c37.77-31.68,77-40.76,93.71-43.3v31.72A16,16,0,0,0,151.12,214l11,7.33A16,16,0,0,0,186.5,212l11.77-44.36A48.07,48.07,0,0,0,240,120ZM40,199.93V40h0c42.81,35.91,86.63,45,104,47.24v65.48C126.65,155,82.84,164.07,40,199.93Zm131,8,0,.11-11-7.33V168h21.6ZM192,152H160V88h32a32,32,0,1,1,0,64Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm font-medium leading-normal">Feedback</p>
+                </div>
+                <div class="flex items-center gap-3 px-3 py-2">
+                  <div class="text-white" data-icon="Question" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180ZM128,72c-22.06,0-40,16.15-40,36v4a8,8,0,0,0,16,0v-4c0-11,10.77-20,24-20s24,9,24,20-10.77,20-24,20a8,8,0,0,0-8,8v8a8,8,0,0,0,16,0v-.72c18.24-3.35,32-17.9,32-35.28C168,88.15,150.06,72,128,72Zm104,56A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm font-medium leading-normal">Help and docs</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 p-4">
+              <div class="flex gap-6 justify-between"><p class="text-white text-base font-medium leading-normal">Security Score</p></div>
+              <div class="rounded bg-[#3b4954]"><div class="h-2 rounded bg-white" style="width: 70%;"></div></div>
+              <p class="text-[#9cacba] text-sm font-normal leading-normal">70/100</p>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Network Health</p>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal"
+              >
+                <span class="truncate">New report</span>
+              </button>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#3b4954] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-white text-white pb-[13px] pt-4" href="#">
+                  <p class="text-white text-sm font-bold leading-normal tracking-[0.015em]">Incidents</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Vulnerabilities</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Assets</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Users</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Networks</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Policies</p>
+                </a>
+              </div>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#3b4954] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-white text-white pb-[13px] pt-4" href="#">
+                  <p class="text-white text-sm font-bold leading-normal tracking-[0.015em]">All Incidents</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Open Incidents</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Closed Incidents</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">False Positives</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Ignored Incidents</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#9cacba] pb-[13px] pt-4" href="#">
+                  <p class="text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">Incident Rules</p>
+                </a>
+              </div>
+            </div>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#3b4954] bg-[#111518]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#1b2227]">
+                      <th class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">
+                        Incident Name
+                      </th>
+                      <th class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-240 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Severity</th>
+                      <th class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-360 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-480 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Confidence</th>
+                      <th class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-600 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">First Seen</th>
+                      <th class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-720 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">
+                        Last Updated
+                      </th>
+                      <th class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-840 px-4 py-3 text-left text-white w-60 text-[#9cacba] text-sm font-medium leading-normal">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#3b4954]">
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Bruteforce Attack
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">High</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Open</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">99%</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-600 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        3 days ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-720 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        3 hours ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-840 h-[72px] px-4 py-2 w-60 text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View details
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3b4954]">
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Ransomware Infection
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Critical</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Open</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">95%</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-600 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        1 week ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-720 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        2 hours ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-840 h-[72px] px-4 py-2 w-60 text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View details
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3b4954]">
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Phishing Email
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Medium</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Closed</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">80%</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-600 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        2 months ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-720 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        2 months ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-840 h-[72px] px-4 py-2 w-60 text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View details
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3b4954]">
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        SQL Injection Attempt
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">High</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Open</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">90%</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-600 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        2 days ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-720 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        1 day ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-840 h-[72px] px-4 py-2 w-60 text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View details
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3b4954]">
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">DDoS Attack</td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Critical</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Open</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">98%</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-600 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        1 day ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-720 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        1 hour ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-840 h-[72px] px-4 py-2 w-60 text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View details
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#3b4954]">
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">
+                        Malware Download
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">High</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-360 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Closed</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#283139] text-white text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">85%</span>
+                        </button>
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-600 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        1 month ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-720 h-[72px] px-4 py-2 w-[400px] text-[#9cacba] text-sm font-normal leading-normal">
+                        3 weeks ago
+                      </td>
+                      <td class="table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-840 h-[72px] px-4 py-2 w-60 text-[#9cacba] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View details
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-120{display: none;}}
+                @container(max-width:240px){.table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-240{display: none;}}
+                @container(max-width:360px){.table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-360{display: none;}}
+                @container(max-width:480px){.table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-480{display: none;}}
+                @container(max-width:600px){.table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-600{display: none;}}
+                @container(max-width:720px){.table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-720{display: none;}}
+                @container(max-width:840px){.table-82f46dbc-9fc0-4da5-90b8-26811d4cbed3-column-840{display: none;}}
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
